@@ -4,7 +4,7 @@
   "background_color": "#512da8",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": "/market",
+  "scope": "/market",
   "start_url": "/market",
   "icons": [
     {
