@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    width: calc(100% - 20px);
+    height: auto;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.container>.item {
+    position: relative;
+    min-width: 340px;
+    max-width: 680px;
+    height: 100px;
+    flex-basis: 340px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
