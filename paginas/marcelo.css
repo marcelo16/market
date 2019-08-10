@@ -1,0 +1,69 @@
+main {
+    height: auto;
+}
+
+main .linha {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+main .linha.foto .circulo-foto {
+    border-radius: 50%;
+    border: solid 5px #673ab788;
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+main .linha.foto .circulo-foto> img {
+    height:100%;
+    width: 100%;
+}
+
+main .linha .direito,
+main .linha .esquerda {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+main .linha .esquerda {
+    text-align: right; 
+    font-size: 14px;
+    font-weight: bold;
+    color:#707070;
+    text-transform: uppercase;
+}
+main .linha .esquerda::after {
+    content: ":"
+}
+main .linha .direito {
+    font-size: 16px;
+    color:#a0a0a0;
+    font-style: italic;
+}
+
+main .linha.informacoes,
+main .linha .linha {
+    float: left;
+    padding: 10px 0;
+}
+
+main .linha .linha:nth-child(even) {
+    background: #673ab722;
+}
+main .linha .linha:nth-child(odd) {
+    background: transparent;
+}
+footer {
+    float: left;
+}
+
+main .alinha .direita p {
+    line-height: 2em;
+    padding: 0 20px 0 5px;
+}
